@@ -8,7 +8,9 @@
 
 Они оба реализуют стандарты `C++`, но первое в рамках [GNU](https://ru.wikipedia.org/wiki/GNU_Compiler_Collection), а второе разработано [майками](https://ru.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B).
 
-`MinGW` — это "порт GCC" для Windows. Но в настоящее время с `MinGW` всё сложно, и поэтому появилось `MinGW-w64`. `MinGW-w64` — это форк от `MinGW`, который предоставляет поддержку 64 бит и новые WinAPI. Но собрать себе `MinGW-w64` ещё та задача. Поэтому есть люди, которые собирают из исходников и делятся готовым решением. Например, можете посетить эти сайты:
+`MinGW` — это "порт GCC" для Windows. Но в настоящее время с `MinGW` всё сложно, и поэтому появилось `MinGW-w64`.
+
+`MinGW-w64` — это форк от `MinGW`, который предоставляет поддержку 64 бит и новые WinAPI. Но собрать себе `MinGW-w64` ещё та задача. Поэтому есть люди, которые собирают из исходников и делятся готовым решением. Например, можете посетить эти сайты:
 
  - [https://nuwen.net/mingw.html](https://nuwen.net/mingw.html)
 
@@ -23,13 +25,13 @@
 [Здесь](https://winlibs.com/) будут `gcc/g++ вместе с gdb` и `make`, и ещё некоторые утилиты.
 
 Скачайте:
- - `winlibs-x86_64-posix-seh-gcc-11.2.0-llvm-13.0.0-mingw-w64-9.0.0-r3.7z.001`
+ - [`winlibs-x86_64-posix-seh-gcc-11.2.0-llvm-13.0.0-mingw-w64-9.0.0-r3.7z.001`](https://github.com/The220th/SharedLib/raw/main/cpp/Windows/MinGW/winlibs-x86_64-posix-seh-gcc-11.2.0-llvm-13.0.0-mingw-w64-9.0.0-r3.7z.001)
 
- - `winlibs-x86_64-posix-seh-gcc-11.2.0-llvm-13.0.0-mingw-w64-9.0.0-r3.7z.002`
+ - [`winlibs-x86_64-posix-seh-gcc-11.2.0-llvm-13.0.0-mingw-w64-9.0.0-r3.7z.002`](https://github.com/The220th/SharedLib/raw/main/cpp/Windows/MinGW/winlibs-x86_64-posix-seh-gcc-11.2.0-llvm-13.0.0-mingw-w64-9.0.0-r3.7z.002)
 
- - `7z.dll`
+ - [`7z.dll`](https://github.com/The220th/SharedLib/raw/main/cpp/Windows/MinGW/7z.dll)
  
- - `7z.exe`
+ - [`7z.exe`](https://github.com/The220th/SharedLib/raw/main/cpp/Windows/MinGW/7z.exe)
 
 Переместите эти файлы в одну папку. Далее введите в этой папке команду:
 
@@ -75,13 +77,13 @@ rundll32.exe sysdm.cpl,EditEnvironmentVariables
 [Есть такая сборка](https://nuwen.net/mingw.html), где всё включено. Есть и `gcc/g++ вместе с gdb`, и `Boost`, и `libpng`, и `make`, и `git`, и ещё куча всего.
 
 Скачайте:
- - `MinGW-gcc-11.2.0.7z.001`
+ - [`MinGW-gcc-11.2.0.7z.001`](https://github.com/The220th/SharedLib/raw/main/cpp/Windows/MinGW/MinGW-gcc-11.2.0.7z.001)
 
- - `MinGW-gcc-11.2.0.7z.002`
+ - [`MinGW-gcc-11.2.0.7z.002`](https://github.com/The220th/SharedLib/raw/main/cpp/Windows/MinGW/MinGW-gcc-11.2.0.7z.002)
  
- - `7z.dll`
+ - [`7z.dll`](https://github.com/The220th/SharedLib/raw/main/cpp/Windows/MinGW/7z.dll)
 
- - `7z.exe`
+ - [`7z.exe`](https://github.com/The220th/SharedLib/raw/main/cpp/Windows/MinGW/7z.exe)
 
 Переместите эти файлы в одну папку. Далее введите в этой папке команду:
 
